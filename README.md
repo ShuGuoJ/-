@@ -1,1 +1,2 @@
-# -
+# 去除图像周围白边
+matplotlib库的绘图区域有figure和axes，figure包含axes且axes的大小一般小于figure的大小。所以在figure上显示图像会导致最终实际图像中存在着白边。
